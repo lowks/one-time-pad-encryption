@@ -12,7 +12,9 @@ setup(
   author_email = 'marcanthonysanti@gmail.com',
   url = 'https://github.com/marcsantiago/one-time-pad-encryption', 
   download_url = 'https://github.com/marcsantiago/one-time-pad-encryption/tarball/0.1', 
-  keywords = ['encryption', 'one time pad'], 
+  keywords = ['encryption', 'one time pad'],
+  description=('Provide users with a quick and simple way to'
+               'perform a one time pad encryption on text files and strings'),
   long_description=read('README.txt'),
   classifiers = [],
 )
